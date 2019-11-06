@@ -11,7 +11,7 @@
         {
             "label": "Python",
             "type": "shell",
-            "command": "python -i \\\"${file}\\\"",
+            "command": "python3 -i ${file}",
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -21,7 +21,7 @@
         {
             "label": "OCaml",
             "type": "shell",
-            "command": "ocaml -init \\\"${file}\\\""
+            "command": "ocaml -init ${file}"
         }
     ]
 }

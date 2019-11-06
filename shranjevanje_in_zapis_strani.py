@@ -43,5 +43,5 @@ def iskanje_podatkov_za_restavracije(ime_datoteke):
         stevec +=1
 
     orodja.zapisi_csv(slovar_iskanih_podatkov, ['Naslov', 'Mesto', 'Doplacilo', 'Posta', 'Cena', 'Ime_lokala'], 'restavracije.csv')
-
+    print(slovar_iskanih_podatkov)
     print(stevec)
